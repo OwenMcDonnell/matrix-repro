@@ -1,7 +1,5 @@
 image: Visual Studio 2015
 
-init:
-  - ps: write-host "empty"
 environment:
   matrix:
   - JOB_NAME: test
